@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>RISE</title>
+
+    <script>
+
+    window.onload=function()
+        {
+        //BACKGROUND
+        var background1=new image();
+        var background1num=Math.floor(Math.random()*3)+1; // change '3' to whatever number of head files you want
+        var background1name="background1" + background1num + ".png";
+        background1.src=backgroundname; 
+        
+       //HEXA
+        var hexa1=new image();
+        var hexa1num=Math.floor(Math.random()*3)+1; // change '3' to whatever number of head files you want
+        var hexa1name="hexa1" + hexa1num + ".png";
+        hexa1.src=hexa1name; 
+
+        //HEAD LOADED
+        escapista.onload=function()
+        {
+            buildescapista();
+        }
+        
+        //CIRCLE LOADED
+        escapistacir.onload=function()
+        {
+            buildescapistacir();
+        }
+
+        function buildescapista()
+        {
+            var canvas=document.getElementById('canvas');
+            var ctx = canvas.getContext('2d');
+            canvas.width=400;
+            canvas.height=400;
+            
+            ctx.drawImage(background1,((400-robothead.width/2),50);
+    
+            
+            //ADD RANDOM BACKGROUND COLOR 
+            var r=Math.floor(Math.random() * (255 - 100 + 1) + 100);
+            var g=Math.floor(Math.random() * (225 - 100 + 1) + 100);
+            var b=Math.floor(Math.random() * (225 - 100 + 1) + 100);
+            var bgcol = "#" + r.toString(16) + g.toString(16) + b.toString(16);
+            ctx.fillStyle = bgcol;
+            ctx.fillRect(0, 0, 400, 400);
+
+            //List of all parts and where they should go
+
+            //DRAW HEAD
+            ctx.drawImage(escapistahead,((400-escapistahead.width)/2),50);
+            //DRAW CIRCLE
+            ctx.drawImage(escapistacircle,((400-escapistacircle.width)/2),50);
+        
+            
+            
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <div align="center">
+
+        <canvas id="canvas" style="border:5px solid #b01ae7;"></canvas>
+        <br><br>
+        <button onClick="window.location.reload();">Generate!</button>
+ 
+    </div>
+
+</body>
+
+</html>

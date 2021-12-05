@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>The escape plan</title>
+
+</head>
+<script>
+
+window.onload=function()
+    {
+
+    var background=new image();
+    var backgroundnum=Math.floor(Math.random()*3)+1;
+    var backgroundname="head" + backgroundnum + ".png";
+    background.src=backgroundname; 
+    
+    background.onload=function()
+    {
+        buildbackground();
+    }
+    
+    function buildbackground()
+    {
+        var canvas=document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        canvas.width=400;
+        canvas.height=400;
+        
+        ctx.drawImage(background,((400-background.width)/2),50);
+        
+    }
+}
+    
+
+</script>
+
+<body>
+
+    <div align="center">
+
+        <canvas id"canvas" style="border:5px solid #000000;"></canvas>
+        <br><br>
+        <button onClick="window.location.reload();">Generate!</button>
+ 
+    </div>
+
+</body>
+
+</html>

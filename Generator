@@ -84,10 +84,7 @@
             //DRAW IZQ
             ctx.drawImage(riseizq,((400-riseizq.width)/2),50);
             //DRAW SQUARE RIGHT
-            ctx.drawImage(riseright,((400-riseright.width)/2),50);
-      
-         
-            
+            ctx.drawImage(riseright,((400-riseright.width)/2),50); 
         }
     }
     </script>

@@ -1,5 +1,5 @@
 # RISE
-We are a DAO that protects women in Puerto Rico on gender and domestic violence. The NFT represents their membership and gains access to opportunities to participate and empower in the community. Women are not protected against the legislation meant to advocate for them. 
+We are a DAO that protects women in Puerto Rico on gender and domestic violence. The Non Fungible Token represents their membership and gains access to opportunities to participate and empower in the community. Women are not protected against the legislation meant to advocate for them. 
 
 The outlets that exist are limited and a gamble to their safety. None of these situations are one size fits all, but the value of protection is great in these adverse situations. Non-profit organization’s resource crisis situations and funds for short-term solutions are liable to scarcity. Funding is necessary to continue these services for survivors. While helpful, there are outlying problems that can further impact the safety and state of their well-being. The instability in these situations are life-changing. 
 

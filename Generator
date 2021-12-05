@@ -19,26 +19,52 @@
         var hexa1name="hexa1" + hexa1num + ".png";
         hexa1.src=hexa1name; 
 
-        //HEAD LOADED
-        escapista.onload=function()
-        {
-            buildescapista();
-        }
+        //IZQ
+        var izq1=new image();
+        var izq1num=Math.floor(Math.random()*3)+1; // change '3' to whatever number of head files you want
+        var izq1name="izq1" + izq1num + ".png";
+        izq1.src=izq1name; 
         
-        //CIRCLE LOADED
-        escapistacir.onload=function()
+        //SQUARERIGHT
+        var squareright1=new image();
+        var squareright1num=Math.floor(Math.random()*3)+1; // change '3' to whatever number of head files you want
+        var square1name="squareright1" + squareright1num + ".png";
+        izq1.src=izq1name; 
+        
+        //BACKGROUND LOADED
+        rise.onload=function()
         {
-            buildescapistacir();
+            buildrise();
+        }
+    
+        
+        //HEXA LOADED
+        risehexa.onload=function()
+        {
+            buildrisehexa();
         }
 
-        function buildescapista()
+         //IZQ LOADED
+        riseizq.onload=function()
+        {
+            buildriseizq();
+        }
+        function buildrise()
+        {
+        
+         //SQUARERIGHT
+        risesquareright.onload=function()
+        {
+            buildrisesquareright();
+        }
+        function buildrise()
         {
             var canvas=document.getElementById('canvas');
             var ctx = canvas.getContext('2d');
             canvas.width=400;
             canvas.height=400;
             
-            ctx.drawImage(background1,((400-robothead.width/2),50);
+            ctx.drawImage(background1,((400-background.width/2),50);
     
             
             //ADD RANDOM BACKGROUND COLOR 
@@ -51,12 +77,16 @@
 
             //List of all parts and where they should go
 
-            //DRAW HEAD
-            ctx.drawImage(escapistahead,((400-escapistahead.width)/2),50);
-            //DRAW CIRCLE
-            ctx.drawImage(escapistacircle,((400-escapistacircle.width)/2),50);
-        
-            
+            //DRAW BACKGROUND
+            ctx.drawImage(backgroundhead,((400- backgroundhead.width)/2),50);
+            //DRAW HEXAGON  
+            ctx.drawImage(risehexa,((400-risehexa.width)/2),50);
+            //DRAW IZQ
+            ctx.drawImage(riseizq,((400-riseizq.width)/2),50);
+            //DRAW SQUARE RIGHT
+            ctx.drawImage(riseright,((400-riseright.width)/2),50);
+      
+         
             
         }
     }

@@ -13,10 +13,7 @@ The DAO is formed to globally survey each region’s top problems and begin work
 
 3. Risers (survivors)
 
-The impact on their life can be mitigated by combating the costs of:
--Healthcare
--Lost productivity
--Societal costs of criminal justice system interventions
+The impact on their life can be mitigated by combating the costs of:Healthcare,Lost productivity, Societal costs of criminal justice system interventions.
 
 Fundraising events across the roadmap are what operates the growth of the DAO and provide a real-world use case that promotes engagement through education and participation. 
 

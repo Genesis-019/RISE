@@ -1,14 +1,18 @@
 # RISE
 We are a DAO that protects women in Puerto Rico on gender and domestic violence. The NFT represents their membership and gains access to opportunities to participate and empower in the community. Women are not protected against the legislation meant to advocate for them. 
+
 The outlets that exist are limited and a gamble to their safety. None of these situations are one size fits all, but the value of protection is great in these adverse situations. Non-profit organization’s resource crisis situations and funds for short-term solutions are liable to scarcity. Funding is necessary to continue these services for survivors. While helpful, there are outlying problems that can further impact the safety and state of their well-being. The instability in these situations are life-changing. 
+
 Therefore, access to a safe community where women have the opportunity to empower themselves financially supported by their long-term contributions. This rewrites the narrative and empowers women to have control in how to support their recovery and build financial stability along the way. 
+
 The DAO is formed to globally survey each region’s top problems and begin working on the lack of solutions that statistics often display. Economic empowerment is the priority to battle against the out-of-pockets front cost of an unexpected expense and experience. 
-P
-hilanthropists (donors)
 
-Activists (people do the work to create the concepts in the DAO)
+1. Philanthropists (donors)
 
-Risers
+2. Activists (people do the work to create the concepts in the DAO)
+
+3. Risers (survivors)
+
 The impact on their life can be mitigated by combating the costs of:
 -Healthcare
 -Lost productivity
